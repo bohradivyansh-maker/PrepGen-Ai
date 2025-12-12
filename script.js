@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // CONSTANTS
     // ============================================================================
     
-    // For local development:
-    const API_BASE_URL = "http://127.0.0.1:8000";
+    // Production API URL (Railway backend)
+    const API_BASE_URL = "https://prepgen-ai-production.up.railway.app";
     
-    // For production deployment, replace with your Railway backend URL:
-    // const API_BASE_URL = "https://your-railway-app.up.railway.app";
+    // For local development, use:
+    // const API_BASE_URL = "http://127.0.0.1:8000";
     
     
     // ============================================================================
