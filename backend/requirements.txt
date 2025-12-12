@@ -1,0 +1,33 @@
+# FastAPI and Server (includes uvicorn, pydantic, starlette, etc.)
+fastapi[all]==0.104.1
+
+# MongoDB - Updated for Python 3.13 compatibility
+motor==3.6.0
+pymongo==4.9.0
+dnspython==2.4.2
+
+# Settings Management
+pydantic-settings==2.1.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+authlib==1.2.1
+
+# HTTP Requests
+httpx==0.25.1
+
+# File Upload Support
+python-multipart==0.0.6
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Async File I/O
+aiofiles==23.2.1
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Testing - Multi-User Concurrent Testing
+aiohttp==3.11.11
